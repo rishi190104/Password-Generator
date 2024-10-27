@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(gray, black);
+}
+
+.container {
+    height: 33vh;
+    width: 33vw;
+    border-radius: 10px;
+    background: linear-gradient(rgb(222, 93, 222), rgb(96, 1, 96));
+}
+
+.head {
+    text-align: center;
+    padding-top: 2rem;
+    color: black;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 1rem;
+}
+
+.input input {
+    height: 5vh;
+    width: 15vw;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.input img {
+    height: 2rem;
+    cursor: pointer;
+}
+
+button {
+    height: 5vh;
+    width: 20vw;
+    font-size: 1rem;
+    margin-left: 6rem;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, gray, black);
+    cursor: pointer;
+}
